@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Akash Singh - Portfolio</title>
+</head>
+<body>
+
+    <header>
+          <h1>Akash Singh</h1>
+        <p>Web Developer</p>
+    </header>
+
+   <section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi, I'm Akash Singh, a passionate and results-driven web developer based in Bangalore I have a strong foundation in HTML, CSS, and JavaScript, and I am constantly expanding my skill set to stay current with the latest web development technologies.
+    </p>
+    <p>
+        My journey in web development started and I enjoy collaborating with others to create engaging and user-friendly websites.
+    </p>
+    <p>
+        When I'm not coding, you can find me exploring new technologies, or contributing to open-source projects. I believe in the power of technology to make a positive impact, and I am excited about the endless possibilities in the world of web development.
+    </p>
+</section>
+
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- List your projects with links and descriptions -->
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>This project is built using python and mysql(database). Where the student information is stored in a database and can be entered modified and accessed through the interface </p>
+            <a href="#">Link to the project</a>
+        </div>
+        <div class="project">
+            <h3>Portfolio(self)</h3>
+            <p>This project decripts about me, my skills and my projects</p>
+            <a href="#">Link to the project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: linkedin.com/in/yourname</p>
+        <!-- Add more contact information as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Akash Singh All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+<!-- **********************************************************C S S ***************************************************************-->
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
